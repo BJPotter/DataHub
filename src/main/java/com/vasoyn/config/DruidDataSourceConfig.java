@@ -31,7 +31,6 @@ public class DruidDataSourceConfig {
             dataSource.setTestOnReturn(false);
             dataSource.setValidationQuery("SELECT 1");
             dataSource.setMaxActive(10);
-            dataSource.setConnectionProperties(dataSourceConfig.get("dataSource_nullAsDefault"));
         }}catch (Exception e){
             logger.error("Failed to initialize the DruidDataSourceConfig", e);
         }
