@@ -1,0 +1,17 @@
+com\vasoyn\etl\process\KafkaToClickhouseProcessFunction.class
+com\vasoyn\etl\sink\KafkaToClickhouseComonSinkFunction.class
+com\vasoyn\utils\DynamicDataUtil.class
+com\vasoyn\utils\TimeUtil.class
+com\vasoyn\enums\ErrorLevel.class
+com\vasoyn\enums\ErrorType.class
+com\vasoyn\config\GlobalConfig.class
+com\vasoyn\config\KafkaMessageConfig.class
+com\vasoyn\utils\UUIDUtil.class
+com\vasoyn\handle\TopicHandleProcessor.class
+com\vasoyn\etl\KafkaToClickhouseJob.class
+com\vasoyn\pojo\ValidatePojo.class
+com\vasoyn\utils\ValidateUtil.class
+com\vasoyn\config\DruidDataSourceConfig.class
+com\vasoyn\utils\CustomizeHandleUtil.class
+com\vasoyn\utils\ValidateUtil$1.class
+com\vasoyn\utils\ErrorUtil.class
